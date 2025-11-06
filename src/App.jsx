@@ -1,47 +1,42 @@
-import { Container } from "./components/foter";
+import { Container, Sectin, Foterr } from "./components/foter";
+import styled from "styled-components";
+
+const Wrapper = styled.div`
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
+`;
 
 export default function App() {
   return (
-    <div>
-      <section>
-        {" "}
-        <Container>
-          <section>
-            <h1>sedans</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-              explicabo mollitia sed totam architecto id aliquid atque quaerat
-              hic, obcaecati adipisci dolorem eius aperiam. Similique odit
-              corporis consequuntur earum quae?
-            </p>
-            <button>learn more</button>
-          </section>
-        </Container>
-        <Container>
-          <section>
-            <h1>sedans</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-              explicabo mollitia sed totam architecto id aliquid atque quaerat
-              hic, obcaecati adipisci dolorem eius aperiam. Similique odit
-              corporis consequuntur earum quae?
-            </p>
-            <button>learn more</button>
-          </section>
-        </Container>{" "}
-        <Container>
-          <section>
-            <h1>sedans</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-              explicabo mollitia sed totam architecto id aliquid atque quaerat
-              hic, obcaecati adipisci dolorem eius aperiam. Similique odit
-              corporis consequuntur earum quae?
-            </p>
-            <button>learn more</button>
-          </section>
-        </Container>
-      </section>
-    </div>
+    <Wrapper>
+      <Container>
+        <h1>Sedans</h1>
+        <p>
+          Choose a sedan for its affordability and excellent fuel economy. Ideal
+          for cruising in the city or on your next road trip.
+        </p>
+        <button>Learn more</button>
+      </Container>
+
+      <Sectin>
+        <h1>SUVs</h1>
+        <p>
+          Take an SUV for its spacious interior, power, and versatility. Perfect
+          for your next family vacation and off-road adventures.
+        </p>
+        <button>Learn more</button>
+      </Sectin>
+
+      <Foterr>
+        <h1>Luxury</h1>
+        <p>
+          Cruise in the best car brands without the bloated prices. Enjoy the
+          enhanced comfort of a luxury rental and arrive in style.
+        </p>
+        <button>Learn more</button>
+      </Foterr>
+    </Wrapper>
   );
 }
