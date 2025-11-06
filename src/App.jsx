@@ -5,6 +5,12 @@ const Wrapper = styled.div`
   display: flex;
   justify-content: center;
   padding: 30px;
+  gap: 0;
+
+  @media (max-width: 730px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export default function App() {

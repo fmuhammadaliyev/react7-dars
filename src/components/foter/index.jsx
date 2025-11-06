@@ -5,10 +5,9 @@ const BaseCard = styled.section`
   flex-direction: column;
   justify-content: center;
   padding: 20px;
-  width: 310px;
+  max-width: 300px;
   height: 500px;
   color: white;
-  border-radius: 12px;
   transition: 0.3s;
 
   & h1 {
@@ -18,9 +17,12 @@ const BaseCard = styled.section`
   & p {
     margin: 15px 0;
     line-height: 1.5;
+    padding-top: 20px;
   }
 
   & button {
+    position: absolute;
+    margin-top: 300px;
     padding: 10px 20px;
     background-color: white;
     color: black;
