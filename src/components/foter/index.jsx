@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-/* Asosiy card (Container) uchun umumiy stil */
+/* Asosiy card dizayni */
 const BaseCard = styled.section`
   display: flex;
   flex-direction: column;
@@ -10,6 +10,7 @@ const BaseCard = styled.section`
   height: 500px;
   color: white;
   border-radius: 12px;
+  transition: 0.3s;
 
   & h1 {
     text-transform: uppercase;
@@ -28,22 +29,33 @@ const BaseCard = styled.section`
     border-radius: 8px;
     cursor: pointer;
     transition: 0.3s;
-
-    &:hover {
-      opacity: 0.8;
-    }
   }
 `;
 
-/* Uch xil variant uchun ranglar */
+/* Har bir karta uchun alohida rang + hover */
 export const Container = styled(BaseCard)`
   background-color: #e28625;
+
+  & button:hover {
+    background-color: #e28625;
+    color: white;
+  }
 `;
 
 export const Sectin = styled(BaseCard)`
   background-color: #006971;
+
+  & button:hover {
+    background-color: #006971;
+    color: white;
+  }
 `;
 
 export const Foterr = styled(BaseCard)`
   background-color: #004140;
+
+  & button:hover {
+    background-color: #004140;
+    color: white;
+  }
 `;
