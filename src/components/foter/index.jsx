@@ -4,7 +4,7 @@ const BaseCard = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 20px;
+  padding: 40px;
   max-width: 300px;
   height: 500px;
   color: white;
@@ -12,6 +12,7 @@ const BaseCard = styled.section`
 
   & h1 {
     text-transform: uppercase;
+    margin-top: -40px;
   }
 
   & p {
@@ -22,7 +23,7 @@ const BaseCard = styled.section`
 
   & button {
     position: absolute;
-    margin-top: 300px;
+    margin-top: 350px;
     padding: 10px 20px;
     background-color: white;
     color: black;

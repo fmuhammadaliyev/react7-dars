@@ -23,7 +23,7 @@ export default function App() {
         <img
           src={groupImg}
           alt="group"
-          style={{ width: "64px", position: "relative", top: "-80px" }}
+          style={{ width: "64px", position: "relative", top: "-110px" }}
         />
         <h1>Sedans</h1>
         <p>
@@ -37,7 +37,7 @@ export default function App() {
         <img
           src={groupImgg}
           alt="group"
-          style={{ width: "64px", position: "relative", top: "-80px" }}
+          style={{ width: "64px", position: "relative", top: "-110px" }}
         />
         <h1>SUVs</h1>
         <p>
@@ -51,7 +51,7 @@ export default function App() {
         <img
           src={groupImmg}
           alt="group"
-          style={{ width: "64px", position: "relative", top: "-80px" }}
+          style={{ width: "64px", position: "relative", top: "-110px" }}
         />
         <h1>Luxury</h1>
         <p>
