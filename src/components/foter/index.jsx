@@ -1,6 +1,5 @@
 import styled from "styled-components";
 
-/* Asosiy card dizayni */
 const BaseCard = styled.section`
   display: flex;
   flex-direction: column;
@@ -29,10 +28,11 @@ const BaseCard = styled.section`
     border-radius: 8px;
     cursor: pointer;
     transition: 0.3s;
+    align-self: self-start;
+    width: auto;
   }
 `;
 
-/* Har bir karta uchun alohida rang + hover */
 export const Container = styled(BaseCard)`
   background-color: #e28625;
 
