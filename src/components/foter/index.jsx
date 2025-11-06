@@ -28,7 +28,7 @@ const BaseCard = styled.section`
     background-color: white;
     color: black;
     border: none;
-    border-radius: 8px;
+    border-radius: 30px;
     cursor: pointer;
     transition: 0.3s;
     align-self: self-start;
